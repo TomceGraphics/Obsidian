@@ -1,0 +1,24 @@
+views:
+  - type: cards
+    name: ISM
+    filters:
+      and:
+        - file.folder == "Zettlecasten"
+        - '!file.tags.containsAny("concept")'
+        - file.tags.containsAny("data-management", "ism")
+    order:
+      - file.name
+      - tags
+      - file.ctime
+    cardSize: 300
+    image: note.cover
+    imageAspectRatio: 0.6
+  - type: cards
+    name: Databases 2
+    filters:
+      and:
+        - file.folder == "Zettlecasten"
+        - file.tags.contains("database2")
+    order:
+      - file.name
+      - tags
