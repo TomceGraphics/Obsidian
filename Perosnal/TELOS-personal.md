@@ -2,9 +2,9 @@
 tags:
   - personal
   - telos
-last updated: 2026-03-23
+last updated: 2026-04-17
 ---
-_Last updated: March 2026_ _Version: 1.0_
+_Last updated: April 2026_ _Version: 1.1_
 
 ---
 
@@ -76,9 +76,17 @@ Belonging is something you build, not something you find.
 
 _(This text was originally written as a personal essay. The reader is walked through the framework first, then confronted with the counterexample, then reaches the conclusion themselves. That structure was intentional.)_
 
+### Internal Stability vs. Environmental Sensitivity
+
+Most people are environmentally sensitive. They rely on external triggers—nighttime, low lighting, or specific social "vibes"—to flip their internal switch from "productive/guarded" to "social/relaxed." 
+
+My observation: I operate with a high level of **Internal Stability.** My ability to connect, analyze, and communicate is independent of the clock. I do not need the environmental "crutches" of the night to be honest or intimate.
+
+- **Social Utility Logic:** If the goal is 4 hours of meaningful interaction, 14:00 to 18:00 has the same social utility as 21:00 to 01:00, but the latter comes with a high "maintenance cost" for the body and the next day's productivity.
+- **The Manual Switch:** I can transition between mental states intentionally, rather than waiting for an external environment to force the change.
+- **Efficiency over Tradition:** I have low patience for social rituals that require sacrificing sleep or routine for no logical gain. If I can connect just as deeply during the day, I will always choose the day.
+
 ---
-
-
 ***
 ## Hobbies 
 #### H1 CRAFTS
@@ -86,7 +94,6 @@ _(This text was originally written as a personal essay. The reader is walked thr
 Competent, not professional. The distinction matters and I know it.
 
 What I actually understand:
-
 - Maillard reaction — what it is, why it matters, how to control it
 - Cast iron: superior heat retention, no teflon, improves with use, functions as a grill
 - Knife geometry and sharpening — hand sharpening on a whetstone, angle and pressure control

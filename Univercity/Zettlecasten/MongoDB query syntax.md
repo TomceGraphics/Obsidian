@@ -113,3 +113,18 @@ db.users.find({ "address.city": "London" })
 |`WHERE age > 25 AND city='London'`|`{ age: { $gt: 25 }, city: "London" }`|
 |`WHERE city='London' OR city='Paris'`|`{ $or: [{ city: "London" }, { city: "Paris" }]}`|
 |`SELECT name, email FROM users`|`db.users.find({}, { name: 1, email: 1 })`|
+
+## Sorting
+
+
+ the basic syntax is `.sort({key:value})`. We chain the `.sort()` method to the end of our `find()` query. It works very similarly to a **Projection**. You provide an object where the **key** is the field you want to sort by, and the **value** determines the direction:
+- `1` = **Ascending** (Smallest to largest, A-Z)
+- `-1` = **Descending** (Largest to smallest, Z-A)
+ 
+```js
+//EXAMPLE
+db.collection.find({}).sort({ someField: 1 })
+
+-1 //decending
+1 //acending
+```

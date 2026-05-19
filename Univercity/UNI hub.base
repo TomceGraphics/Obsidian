@@ -22,3 +22,11 @@ views:
     order:
       - file.name
       - tags
+  - type: table
+    name: Data Viz
+    filters:
+      and:
+        - file.hasTag("data-visualization")
+    order:
+      - file.name
+      - tags

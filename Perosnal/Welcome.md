@@ -14,12 +14,10 @@ the Philosophy is NO BOAT
 [[Games to play]]
 
 Weekly calendar 
-![[week-calendar.png]]
+![[weekly-calendar2.png]]
 
 [[weekly goals]]
-
-this is for the next week only
-![[weekly-calendar-midterms.png]]
+[[business ideas]]
 ###### Tasks for natural language input paradigm 
 ![[notes#Tasks]]
 

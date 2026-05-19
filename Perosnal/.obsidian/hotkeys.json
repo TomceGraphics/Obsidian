@@ -14,5 +14,13 @@
       ],
       "key": "ArrowUp"
     }
+  ],
+  "insert-current-time": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
   ]
 }
