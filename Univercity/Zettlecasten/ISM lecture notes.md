@@ -116,11 +116,10 @@ is cdn in ism the same as cdn in web development?
 [^11]: unified communications is the process of integrating different communication methods
 [^12]: OSS is the process of managing the operations of a telecommunications network
 [^13]: BSS is the process of managing the business operations of a telecommunications network
-[^14]: Enriko said that the exam is not cumulative. 
 
 # 28.04.2026
 Chapter 9:
-acheeving operattional excellence and customer intimacy: Enterprise Systems
+achieving operational excellence and customer intimacy: Enterprise Systems
 
 learning goals:
 - how do enterprise systems help businesses achieve operational excellence?
@@ -129,10 +128,10 @@ learning goals:
 - what are the key enterprise systems used by businesses today?
 
 what are enterprise systems?
-a:
+a: a system that connects all areas of a business though a centralized database
 
 Enterprise software 
-it need to impelent:
+it need to impellent:
 - finance and accounting (F&A)
 - sales and marketing
 - production and manufacturing (P&M)

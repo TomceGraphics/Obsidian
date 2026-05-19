@@ -21,3 +21,5 @@
 - `08:20` **Follow-up done** - I’m Done with the emails. with 40 minutes to spare ill do the front end I talked about it will just be 20 minutes.
 - `08:22` **Build start** - start with the front end.
 - `08:35` **Build done** - I’m done with the initial front end draft. all that’s left is to do is setup GitHub and do the tauri code. this will be a tiny rust build that’s sub 10mb in size and the good part of this tauri code is people can build from source they can do: windows, Linux, Android, IOS, Mac virality any modern system.
+- `09:36` **Study start** - Ill start by exploring yesterdays unknowns.
+- 
