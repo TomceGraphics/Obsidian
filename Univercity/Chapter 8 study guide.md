@@ -39,11 +39,8 @@ _Textbook Reference:_ _Management Information Systems: Managing the Digital Firm
 ## 8.1 Why are Information Systems Vulnerable to Destruction, Error, and Abuse?
 
 ### Security vs. Control
-
 - **Security:** Policies, procedures, and technical measures used to prevent unauthorized access, alteration, theft, or physical damage to information systems.
-    
 - **Controls:** Methods, policies, and organizational procedures that ensure the safety of an organization's assets, the accuracy and reliability of its records, and operational adherence to management standards.
-    
 
 ### Vulnerabilities in Multi-Tier Architectures
 
