@@ -116,10 +116,11 @@ is cdn in ism the same as cdn in web development?
 [^11]: unified communications is the process of integrating different communication methods
 [^12]: OSS is the process of managing the operations of a telecommunications network
 [^13]: BSS is the process of managing the business operations of a telecommunications network
+[^14]: Enriko said that the exam is not cumulative. 
 
 # 28.04.2026
 Chapter 9:
-achieving operational excellence and customer intimacy: Enterprise Systems
+acheeving operattional excellence and customer intimacy: Enterprise Systems
 
 learning goals:
 - how do enterprise systems help businesses achieve operational excellence?
@@ -128,10 +129,10 @@ learning goals:
 - what are the key enterprise systems used by businesses today?
 
 what are enterprise systems?
-a: a system that connects all areas of a business though a centralized database
+a:
 
 Enterprise software 
-it need to impellent:
+it need to impelent:
 - finance and accounting (F&A)
 - sales and marketing
 - production and manufacturing (P&M)
@@ -156,7 +157,19 @@ concepts:
   - sales force automation
   - costumer service 
   - marketing campaign management
-    
+- churn rate [^20]
+  -indicator of customer dissatisfaction 
+
+  
+  chinise customer model for scoring 
+  - they use social credit score 
+  
+- customer loyalty map 
+ mermaid 
+
+
+  
+
 
 
 
@@ -169,3 +182,4 @@ A:
 [^17]: JIT is the process of having raw materials delivered to a manufacturing facility only when they are needed. This reduces the need for storage space and minimizes waste.
 [^18]: bullwhip effect is a phenomenon in supply chain management where demand variability increases as you move up the supply chain
 [^19]: push based manufacturing is when the products are made in anticipation of customer demand. pull based manufacturing is when the products are made in response to customer demand
+[^20]: churn rate is the rate at which customers stop doing business with a company
