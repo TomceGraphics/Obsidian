@@ -1,0 +1,14 @@
+{
+  "name": "obsidian-portal-web",
+  "version": "1.0.0",
+  "description": "Custom compilation scripts and portal tools for self-hosted Obsidian notes",
+  "main": "scripts/compile-bases.js",
+  "scripts": {
+    "compile-bases": "node scripts/compile-bases.js",
+    "encrypt-site": "node scripts/encrypt-site.js"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "pagecrypt": "^2.1.0"
+  }
+}

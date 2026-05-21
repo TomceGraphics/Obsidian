@@ -53,14 +53,27 @@
             "id": "5fd39d8d25b12bd5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Chapter 8 study guide.md",
-                "mode": "source",
-                "source": false
+                "file": "UNI hub.base",
+                "viewName": "ISM"
               },
-              "icon": "lucide-file",
-              "title": "Chapter 8 study guide"
+              "icon": "lucide-layout-grid",
+              "title": "UNI hub"
+            }
+          },
+          {
+            "id": "81bb14a353797408",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://harry-potter-sounds.ambient-mixer.com/ravenclaw-study",
+                "title": "Ravenclaw Study audio atmosphere",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Ravenclaw Study audio atmosphere"
             }
           }
         ],
@@ -274,8 +287,10 @@
   },
   "active": "5fd39d8d25b12bd5",
   "lastOpenFiles": [
-    "chapter 7 study guide.md",
+    "chapter11.md",
+    "🎧 Study & Focus - Video Game Soundtracks.md",
     "Chapter 8 study guide.md",
+    "chapter 7 study guide.md",
     "Pasted image 20260519112812.png",
     "SKILL.md",
     "MIS_DBA_UIST_Ch7 1.pdf",
@@ -291,7 +306,6 @@
     "assets/Data Management lecture notes-cover.png",
     "assets/porter's 5 forces model.png",
     "assets/Chapter 6 - Foundations of Business Intelligence-cover.png",
-    "🎧 Study & Focus - Video Game Soundtracks.md",
     "Zettlecasten/exercise ch 9",
     "tutorial.md",
     "Zettlecasten/group_by.md",
@@ -309,7 +323,6 @@
     "assets",
     "assets/chapter5-cover.png",
     "Zettlecasten/referential integrity.md",
-    "Zettlecasten/normalization.md",
     "Untitled",
     "Zettlecasten"
   ]

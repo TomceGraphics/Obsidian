@@ -1,0 +1,78 @@
+name: Deploy Obsidian Portal to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Important for Quartz to extract file creation/modification dates
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: 'web/package.json'
+
+      - name: Install Web Scripts Dependencies
+        run: |
+          cd web
+          npm install
+
+      - name: Clone Quartz Repository
+        run: |
+          git clone https://github.com/jackyzha0/quartz.git quartz-build
+          cd quartz-build
+          npm ci
+
+      - name: Copy Custom Layouts & Configs
+        run: |
+          cp web/quartz.config.ts quartz-build/quartz.config.ts
+          cp web/quartz.layout.ts quartz-build/quartz.layout.ts
+
+      - name: Sync Obsidian Vaults to Content Directory
+        run: |
+          mkdir -p quartz-build/content/Perosnal
+          mkdir -p quartz-build/content/Univercity
+          
+          # Sync vaults, ignoring internal configuration and environmental files
+          rsync -av --exclude='.obsidian' --exclude='.smart-env' --exclude='.git' Perosnal/ quartz-build/content/Perosnal/
+          rsync -av --exclude='.obsidian' --exclude='.git' Univercity/ quartz-build/content/Univercity/
+          
+          # Copy portal home page index
+          cp web/content/index.md quartz-build/content/index.md
+
+      - name: Compile Obsidian Bases (.base) to Markdown
+        run: |
+          node web/scripts/compile-bases.js quartz-build/content
+
+      - name: Build Quartz Static Site
+        run: |
+          cd quartz-build
+          npx quartz build
+
+      - name: Encrypt Compiled HTML Pages (Pagecrypt)
+        env:
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD || '999305' }}
+        run: |
+          node web/scripts/encrypt-site.js quartz-build/public
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: quartz-build/public
+          force_orphan: true

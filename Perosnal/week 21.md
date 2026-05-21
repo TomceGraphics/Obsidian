@@ -22,4 +22,17 @@
 - `08:22` **Build start** - start with the front end.
 - `08:35` **Build done** - I’m done with the initial front end draft. all that’s left is to do is setup GitHub and do the tauri code. this will be a tiny rust build that’s sub 10mb in size and the good part of this tauri code is people can build from source they can do: windows, Linux, Android, IOS, Mac virality any modern system.
 - `09:36` **Study start** - Ill start by exploring yesterdays unknowns.
-- 
+###### Wednesday
+- `19:07` I got back at 13:00 but I was tired and went to sleep ill do a quick 1 hour session or so. 
+- `21:13` **Study session end** - im done I went over a whole chapter 3 left to go. notebook l’m is a hudge help here i should use it way more 
+###### Tuesday
+- To-Do
+	- [x] Follow-ups to 17 people
+	- [x] outreach
+	- [x] study
+- `08:23` **Follow-up start**
+- `10:21` **Follow-up end** - this took longer I had some of course activity like talking to my brother and bathroom breaks…
+- `10:22` **Outreach start** 
+- `10:43` **Outreach done** - I outreached to 5 people
+- `10:44` **thought and update** - I should post tomorrow. I also wanted to test out the new Gemini 3.5 flash and I gave it the blanket frontend and it came out exactly how i wanted it first try its amazing. all that’s left to do is the tauri part.
+- `14:54` **Study start** - I will start studying maybe for an hour or so then ill relax the rest of the day and later in the night do another session.
